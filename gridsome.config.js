@@ -7,13 +7,21 @@
 module.exports = {
   siteName: '拉钩教育',
   siteDesctiption: '大前端',
-  plugins: [],
-  templates: {
-    Post: [
-      {
-        path:'/posts/:id',
-        component:'./src/templates/Post.vue'
+  plugins: [
+    {
+      use:'@gridsome/source-filesystem',
+      option:{
+        typeName: 'BlogPost',
+        path: './content/blog/**/*.md',
+        remark:{
+
+        }
       }
-    ]
+    }
+  ],
+  transformers: {
+    remark:{
+
+    }
   }
 }
