@@ -19,7 +19,7 @@
             </div>
         </nav>
         <!-- 子组件出口 -->
-        <solt/>
+        <slot/>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">

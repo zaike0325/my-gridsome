@@ -1,6 +1,6 @@
 <template>
-  <Layout>
-     <!-- Page Header-->
+    <Layout>
+         <!-- Page Header-->
         <header class="masthead" style="background-image: url('/img/post-bg.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -48,17 +48,16 @@
                     </div>
                 </div>
             </div>
-        </article>  
-  </Layout> 
+        </article>
+    </Layout>
 </template>
 
 <script>
-export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  },
-  name:"HomePage"
-}
+    export default {
+        name: 'PostPage'
+    }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+
+</style>
