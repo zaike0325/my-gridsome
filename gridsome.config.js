@@ -6,5 +6,14 @@
 
 module.exports = {
   siteName: '拉钩教育',
-  plugins: []
+  siteDesctiption: '大前端',
+  plugins: [],
+  templates: {
+    Post: [
+      {
+        path:'/posts/:id',
+        component:'./src/templates/Post.vue'
+      }
+    ]
+  }
 }
